@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c4a02e7-110b-45c8-9f42-4a7f41efad38">
+  <producedTypes>
+    <objectType typeId="5ca197ee-cde6-4ed5-a9db-f03eb51a9539" valueTypeId="173ec67e-fb56-48be-bde0-eb6530e8474f"/>
+    <refType typeId="0f92c758-7cd3-4748-b492-f2fd33562d70" valueTypeId="8a4ec160-f81f-4ed4-b2c8-2145409881b2"/>
+    <selectionType typeId="9bdb7b7b-ca68-4004-8989-2edf1a350052" valueTypeId="f59dd799-4f02-4c70-b917-aaeefd1d8783"/>
+    <listType typeId="5465aca6-cb5a-4bce-9568-ce73af98d077" valueTypeId="60593d6d-f7a9-4db5-bd63-70f95fb5a850"/>
+    <managerType typeId="3381a0e9-fd5a-4abe-81f5-00d83102b723" valueTypeId="c6edf019-5f07-442b-ad3b-56b223eceab8"/>
+  </producedTypes>
+  <name>КонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КонтактныеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КонтактныеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контактное лицо</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
